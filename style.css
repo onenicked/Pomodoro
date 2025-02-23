@@ -1,0 +1,248 @@
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    
+    .timer {
+        font-size: 36px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    input[type="number"] {
+        width: 50px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Geologica, sans-serif;
+    background-color: #ffcccb; 
+}
+
+.hero {
+    background: #ffcccb; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #ff5c8d; 
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e14b7e; 
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: #ff5c8d;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.85); 
+}
+
+input[type="number"] {
+    width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff5c8d; 
+    border-radius: 10px;
+    background-color: #fff0f5; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #ff5c8d; 
+    box-shadow: 0 0 10px rgba(255, 92, 141, 0.5); 
+    outline: none;
+}
+
+.language-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert();
+    position: absolute;  
+    top: 10%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    z-index: 1000;  
+}
+
+.language-toggle img {
+    width: 50px; 
+    height: 50px;
+    cursor: pointer;  
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    margin-top: 50px;
+    text-align: center;
+}
+
+#tasksTitle {
+    margin-bottom: 20px;
+}
+
+#newTask {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ff5c8d;
+    border-radius: 10px;
+    background-color: #fff0f5;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#newTask:focus {
+    border-color: #ff5c8d;
+    box-shadow: 0 0 10px rgba(255, 92, 141, 0.5);
+    outline: none;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    background-color: #ff5c8d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#addTaskButton:hover {
+    background-color: #e14b7e;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    width: 80%;  
+    margin-top: 20px;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center; 
+    text-align: left; 
+    margin-top: 50px; 
+}
+
+#settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 100%;
+    max-width: 400px; 
+}
+
+#settings-form input,
+#settings-form button {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#settings-form button {
+    background-color: #ff5c8d;;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center; 
+    text-align: left; 
+    margin-top: 50px; 
+}
+
+#settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 100%;
+    max-width: 400px; 
+}
+
+#settings-form input,
+#settings-form button {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#settings-form button {
+    background-color: #ff5c8d;;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
