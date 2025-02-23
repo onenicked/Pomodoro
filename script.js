@@ -14,6 +14,7 @@ const translations = {
         setTimer5: '5 минут (Короткая пауза)',
         setTimer15: '15 минут (Длинная пауза)',
         sessionLengthLabel: 'Длительность сессии:',
+        addTaskPlaceholder: 'Добавить задачу',
         start: 'Начать',
         reset: 'Сбросить',
         bgColorLabel: 'Цвет фона:',
@@ -29,6 +30,7 @@ const translations = {
         timerTitle: 'Pomodoro Timer',
         tasksTitle: 'Tasks',
         addTaskButton: 'Add',
+        addTaskPlaceholder: 'Add task',
         settingsTitle: 'Timer Settings',
         setTimer25: '25 min (Standard)',
         setTimer5: '5 min (Short Break)',
@@ -61,7 +63,8 @@ function updateText() {
     document.getElementById('setTimer25').innerText = translations[currentLanguage].setTimer25;
     document.getElementById('setTimer5').innerText = translations[currentLanguage].setTimer5;
     document.getElementById('setTimer15').innerText = translations[currentLanguage].setTimer15;
-    document.getElementById('sessionLengthLabel').innerText = translations[currentLanguage].sessionLengthLabel
+    document.getElementById('newTask').placeholder = translations[currentLanguage].addTaskPlaceholder;
+    document.getElementById('sessionLengthLabel').innerText = translations[currentLanguage].sessionLengthLabel;
     document.getElementById('start').innerText = translations[currentLanguage].start;
     document.getElementById('reset').innerText = translations[currentLanguage].reset;
     document.getElementById('bgColorLabel').innerText = translations[currentLanguage].bgColorLabel;
