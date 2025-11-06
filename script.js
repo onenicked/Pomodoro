@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Таймер
     let timer;
     let isRunning = false;
     let timeLeft = 1500;
@@ -135,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.setTimer = setTimer;
 
-    // Задачи
     const taskInput = document.getElementById('newTask');
     const taskList = document.getElementById('taskList');
 
@@ -198,13 +196,11 @@ document.addEventListener('DOMContentLoaded', () => {
         loadTasks();
     }
 
-    // Слушатель для кнопки добавления задачи
     document.querySelector("button[onclick='addTask()']").addEventListener("click", addTask);
 
     loadTasks();
 });
 
-// Настройки
 function applySettings() {
     const bgColor = document.getElementById('bgColor').value;
     const bgImage = document.getElementById('bgImage').value;
